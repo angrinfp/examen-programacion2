@@ -1,0 +1,34 @@
+1.- Qué son clases y objetos? Explique la diferencia
+	La diferencia entre clases y objetos es que una clase define las características de
+	un objeto, mientras que un objeto es la instancia de una clase.
+
+2.- Cuándo recomendarías usar POST? Cuándo recomendarías usar GET?
+	Post se utiliza para data sensible/privada como formularios.
+	Get para pedir data como listados y cosas públicas para el usuario.
+
+3.- Por qué usar AJAX en una web? Qué beneficios puedo darle al usuario?
+	Un beneficio de Ajax es que permite que una página se modifique sin la necesidad de que se
+	vuelva a cargar.
+
+4.- Qué es ES6? Nombre 3 nuevas features que introduce.
+	ES6 o ES2015 es la nueva versión estándar de javascript
+	a. const : son variables que nunca cambian su valor
+	b.
+	c.
+
+5.- Qué es Javascript Vanilla?
+	Es un javascript que no usa librerias como jquery.
+
+6.- Qué archivo ayuda a ignorar archivos que no queremos trackear en git?
+	.gitignore y dentro poner los archivos que no queremos trackear para así no tener un
+	repositorio tan pesado y con archivos que no son necesarios subir a git.
+	
+7.- Mencione un ejemplo de como agregar un evento submit a un formulario tanto en JS Vanilla y JQuery.
+	a. JQuery:
+		$("form").on("submit", function() {
+			
+		});
+	b. Js Vanilla:
+		form.addEventListener("submit", function() {
+
+		});

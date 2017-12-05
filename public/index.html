@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  charset="UTF-8">
+        <script
+src="https://code.jquery.com/jquery-3.2.1.js"
+integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+crossorigin="anonymous">
+</script>
+      <script type="text/javascript" src="main.js"></script>
+      <link rel="stylesheet" href="main.css" type="text/css" />
+    </script>
+    </head>
+    <body>
+        <form method="POST">
+            <p>
+                <label for="producto">Producto:</label>
+                <input type="text" name="producto" id="producto" required class="input-text">
+            </p>
+            
+            <p>
+                <label for="cantidad">Cantidad:</label>
+                <input type="text" name="cantidad" id="cantidad" class="input-text">
+            </p>
+
+            <p>
+                <label for="precio">Precio Unitario:</label>
+                <input type="text" name="precio" id="precio" class="input-text">
+            </p>
+            
+            <p>
+                <input type="radio" name="igv" value="igv" id="igv">
+                <label for="igv">Incluye IGV</label>
+            </p>
+            <input type="submit" value="Registrar">
+        </form>
+        <p id="message"></p>
+    </body>
+</html>
